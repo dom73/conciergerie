@@ -16,9 +16,11 @@ body {
 a {
 	color: #CCFF66;
 	text-decoration: none;
+    margin-left: 20px;
 }
   a:hover {
 	text-decoration: none;
+	 margin-left: 20px;
 }
 
 .btn {
@@ -56,6 +58,15 @@ a {
     font-size: 12px; } }
 
 @media screen and (max-width: 42em) {
+	a {
+		font-size: 8px;
+		margin-left: 0px;
+}
+    a:hover {
+		font-size: 8px;
+		margin-left: 0px;
+}
+		
   .btn {
 	
 	width: 15%;
@@ -88,7 +99,7 @@ a {
 
 .project-name {
 	margin-top: 7;
-	margin-bottom: 3px;
+	margin-bottom: 5px;
 }
 
 @media screen and (min-width: 64em) {
