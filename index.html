@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
 
-    <meta charset="utf-8">
+<meta charset="utf-8">
               	  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,7 +12,7 @@
   ga('send', 'pageview');
 </script>
         <title>Conciergerie de Gilles</title>
-     
+ <head>    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Keywords" content="Conciergerie Chambéry, Conciergerie de Gilles, Services intendance, entretien, bricolage, dépannage, jardinage, Savoie, Chambéry">
     <meta name="Reply-to" content="Conciergerie Chambéry, conciergherie de gilles, intendance, conciergerie">
@@ -21,28 +20,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    
    
-   <body>
-<section class="page-header">
-  <h1 class="project-name">Conciergerie de Gilles</h1>
-</section><section><div align="center">
-   <a><strong>ACCUEIL</strong></a>
-   <a href="pages/proprietaires.html" class="btn">PROPRIÉTAIRES</a>
-   <a href="pages/locataires.html" class="btn">LOCATAIRES</a>
-   <a href="pages/services.html" class="btn">SERVICES</a>
-   <a href="pages/contact.html" class="btn">CONTACT</a>
-      </div>
-</section>
-      
-      
-<section class="project-name">
-    <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
     <!-- use jssor.slider.mini.js (40KB) instead for release -->
     <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="js/jssor.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+
     <script>
         jQuery(document).ready(function ($) {
             //Reference http://www.jssor.com/development/slider-with-slideshow-no-jquery.html
@@ -156,29 +140,38 @@
             //responsive code end
         });
     </script>
+    
+   </head>
+   <body>
+ <header>
+<section class="page-header", align="center">
+  <h1 class="project-name">Conciergerie de Gilles</h1>
+</section>
+<div align="center"><section class="header">
+  <a><strong>ACCUEIL</strong></a>
+  <a href="pages/proprietaires.html" class="btn">PROPRIÉTAIRES</a>
+  <a href="pages/locataires.html" class="btn">LOCATAIRES</a>
+  <a href="pages/services.html" class="btn">SERVICES</a>
+  <a href="pages/contact.html" class="btn">CONTACT</a>
+      </section></div></header>
+      
+<section>
     <!-- Jssor Slider Begin -->
     <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
-    <div id="slider1_container" style="position: relative; width: 1000px;
-        height: 300px;">
-
-        <!-- Loading Screen -->
-        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
-                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+    <div id="slider1_container" style="position: relative; width: 1000px; height: 300px;">
+     <!-- Loading Screen -->
+<div u="loading" style="position: absolute; top: 0px; left: 0px;">
+<div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block; background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div></div>
+            <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center; top: 0px; left: 0px;width: 100%;height:100%;">
             </div>
-            <div style="position: absolute; display: block; background: url(img/loading.gif) no-repeat center center;
-                top: 0px; left: 0px;width: 100%;height:100%;">
-            </div>
-        </div>
-
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1000px; height: 300px;
-            overflow: hidden;">
+    <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1000px; height: 300px; overflow: hidden;">
             <div>
                 <img u=image src="img/01.jpg" />
                 <div u="thumb">Lorsqu'une amitié dure plus de 7 ans, les psychologues disent qu'elle durera toute la vie. Le saviez-vous ?</div>
-              <div u="caption" t="L" style="position: absolute; top: 30px; left: 100px; width: 400px; height: 40px; font-size: 36px; line-height: 30px; color: #66FF00; text-shadow: -2px 2px 2px #000000; opacity: 1;">Bienvenue</div>
-              <div u="caption" t="CLIP|LR" style="position: absolute; top: 115px; left: 400px; width: 400px; height: 40px; color: #66FF00; font-size: 26px; line-height: 30px; text-align: center; text-shadow: -2px 2px 2px #000000; opacity: 1;">à la Conciergerie de Gilles</div>
+   <div u="caption" t="L" style="position: absolute; top: 30px; left: 100px; width: 400px; height: 40px; font-size: 36px; line-height: 30px; color: #66FF00; text-shadow: -2px 2px 2px #000000; opacity: 1;">Bienvenue</div>
+ <div u="caption" t="CLIP|LR" style="position: absolute; top: 115px; left: 400px; width: 400px; height: 40px; color: #66FF00; font-size: 26px; line-height: 30px; text-align: center; text-shadow: -2px 2px 2px #000000; opacity: 1;">à la Conciergerie de Gilles</div>
             </div>
             <div>
                 <img u=image src="img/02.jpg" />
@@ -207,7 +200,7 @@
             </div>
             <div>
                 <img u=image src="img/06.jpg" />
-                <div u="thumb">Les gens intelligents se fâchent facilmement et sont faciles à ennuyer. Le saviez-vous ?</div>
+                <div u="thumb">Les gens intelligents se fâchent facilemement et sont faciles à ennuyer. Le saviez-vous ?</div>
                 <div u="caption" t="FLUTTER|L" style="position: absolute; top: 135px; left: 100px; width: 150px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">FLUTTER|L</div>
                 <div u="caption" t="TORTUOUS|VB" style="position: absolute; top: 135px; left: 300px; width: 250px; height: 30px; color: #ffffff; font-size: 26px; line-height: 30px; text-align: center;">TORTUOUS|VB</div>
             </div>
@@ -229,13 +222,10 @@
         <!-- Help: http://www.jssor.com/development/slider-with-thumbnail-navigator-jquery.html -->
         <!-- thumbnail navigator container -->
         <div u="thumbnavigator" class="jssort09" style="position: absolute; bottom: 0px; left: 0px; height:35px; width:1000px;">
-            <div style="filter: alpha(opacity=40); opacity:0.4; position: absolute; display: block;
-                background-color: #ffffff; top: 0px; left: 0px; width: 100%; height: 100%;">
-            </div>
+        <div style="filter: alpha(opacity=40); opacity:0.4; position: absolute; display: block;  background-color: #ffffff; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <!-- Thumbnail Item Skin Begin -->
-            <div u="slides">
-                <div u="prototype" style="POSITION: absolute; WIDTH: 1000px; HEIGHT: 60px; TOP: 0; LEFT: 0;">
-                    <div u="thumbnailtemplate" style="font-family: verdana; font-weight: normal; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0; LEFT: 0; color:#000; line-height: 60px; font-size:14px; padding-left:10px;"></div>
+         <div u="slides"><div u="prototype" style="POSITION: absolute; WIDTH: 1000px; HEIGHT: 60px; TOP: 0; LEFT: 0;">
+         <div u="thumbnailtemplate" style="font-family: verdana; font-weight: normal; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0; LEFT: 0; color:#000; line-height: 60px; font-size:14px; padding-left:10px;"></div>
                 </div>
             </div>
             <!-- Thumbnail Item Skin End -->
@@ -316,11 +306,12 @@
         </span>
         <a style="display: none" href="http://dom73.github.io/conciergerie/">Conciergerie de Gilles</a>
         <!-- Trigger -->
-    </section>
+    </div></section>
     <!-- Jssor Slider End -->
    
        <footer class="site-footer">
         <h5 align="center" class="site-footer-owner" span><a href="http://dom73.github.io/conciergerie/">La Conciergerie de Gilles</a> est réalisé par <a href="http://dom73.github.io/dom73/">dom73</a></span></h5>
              </footer>
-      </section></body>        
+ </body>        
 </html>
+
