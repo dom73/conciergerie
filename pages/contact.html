@@ -3,40 +3,61 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="http://dom73.github.io/conciergerie">
-    <title>.., comme conciergerie</title>
+    <meta name="author" content="Conciergerie de Gilles">
+    <title>Conciergerie de Gilles</title>
     
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="mailer.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+   </head>
    
 <body>
+<section class="page-header", align="center">
+  <h1 class="project-name">Conciergerie de Gilles</h1>
+</section>
+<div align="center"><section class="header">
+  <a href="http://dom73.olympe.in/" class="btn">ACCUEIL</a>
+  <a href="proprietaires.html" class="btn">PROPRIÉTAIRES</a>
+  <a href="locataires.html" class="btn">LOCATAIRES</a>
+  <a href="services.html" class="btn">SERVICES</a>
+  <a><strong>CONTACT</strong></a>
+      </section></div></header>
 
-<section class="page-header">
-  <h1 class="project-name">Conciergerie de Gilles</h1></section>
-      <section><div align="center">
-      <a href="http://dom73.github.io/conciergerie/" class="btn">ACCUEIL</a>
-      <a href="proprietaires.html" class="btn">PROPRIÉTAIRES</a>
-      <a href="locataires.html" class="btn">LOCATAIRES</a>
-      <a href="services.html" class="btn">SERVICES</a>
-      <a><strong>CONTACT</strong></a>
-     </div></section>
-
-</head>
-
-
-<section class="main-content">
-
-      <h3><strong><a id="##--Conciergerie de Gilles" class="anchor" href="http://dom73.github.io/conciergerie/" aria-hidden="true"></a>CONTACT</strong></h3><br>
-
-<p>BLA BLA BLA BLA BLA.....</p><br><br>
+<section>
+        <form action="postmail.php" method="post" name="form1" id="form1">
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="name1">Nom: <br>
+                    <input type="text" name="Nom" id="name1" required>
+                </label>
+                <label for="subject">Objet: <br>
+                    <input type="text" name="Objet" id="objet" required>
+                </label>
+                <label for="email1">Email: <br>
+                    <input type="email" name="Email" id="email1" required>
+                </label>
+                <label for="message">Message: <br>
+                    <textarea name="Message" id="message" rows=5 required></textarea>
+                </label>
+                <input type="submit" name="Submit" id="Submit" value="Envoyer">
+            </fieldset>
+        </form>
+        <script>
+            $("#form1").validator({
+                position: 'bottom left',
+                offset: [2, 2]
+            });
+        </script></section></header></body>
 
 
 <footer class="site-footer">
     <h5><span class="site-footer-owner">Site réalisé par:<a href="http://dom73.github.io/dom73/">dom73</a></span></h5>
    </footer>
 
-</section>
-</body>
+
+
 </html>
